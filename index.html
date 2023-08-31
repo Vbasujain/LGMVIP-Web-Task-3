@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Indie+Flower&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>STUDENT-ENROLLMENT FORM</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEAD -->
+    <header>
+        <div class="boxborder">
+            <center>STUDENT-ENROLLEMT-FORM
+            </center>
+        </div>
+    </header>
+    <!-- BODY -->
+
+    <div class="main">
+        <div class="card1">
+
+            <i><u>
+                    <h1 class="title"> Fill The Given Detail</h1>
+                </u></i>
+            <h3 class="subtitle">Each Field is compulsory</h3>
+
+
+            <!-- formss -->
+
+            <div class="formbox">
+                <form action="">
+                    <label for="fname">Full Name(in capital)</label>
+                    <input type="text" id="fname" placeholder="JOHN DOE..">
+
+                    <!-- mail -->
+                    <label for="gmail" class="maiiltag">Email address</label>
+                    <input type="email" class="mail" id="gmail" aria-describedby="emailHelp"
+                        placeholder="123@gmail.com">
+                    <!-- photo -->
+                    <label for="image" class="phototag">Select Profile Image</label>
+                    <input class="photo" type="file" id="image" onchange="load(event)">
+                    <!--phone  -->
+                    <label for="phone " class="phoonetag">Phone No</label>
+                    <input type="text" class="phone" id="phone" placeholder="Phone No">
+                    <!-- web -->
+                    <label for="website" class="site">Website</label>
+                    <input type="text" id="website" placeholder="www.abc.com">
+
+                    <!-- gebder  -->
+                    <div class="123" style="margin-top: 1 px ;">
+                        <label for="Gender" class="geendertag">Gender-: </label> <br>
+                        <input class="checkbtn" type="radio" name="foo" id="checkbtn1" value="BOY">
+                        <label class="maletag" for="checkbtn1">Male</label>
+                        <input class="checkbtn" type="radio" name="foo" id="checkbtn2" value="GIRL">
+                        <label class="femaletag" for="checkbtn2">Female</label>
+                    </div>
+
+                    <div class="456" style="margin-top: 1 px ;">
+                        <label for="skills" class="skill"> Skills-: </label> <br>
+                        <input class="checkbtn" type="checkbox" id="inlineCheckbox1" value="HTML">
+                        <label class="stag" for="inlineCheckbox1">HTML</label>
+                        <input class="checkbtn" type="checkbox" id="inlineCheckbox2" value="CSS">
+                        <label class="stag" for="inlineCheckbox2">CSS</label>
+                        <input class="checkbtn" type="checkbox" id="inlineCheckbox3" value="Javascript">
+                        <label class="stag" for="inlineCheckbox3">Js</label>
+                    </div>
+
+                    <div class="btnflex">
+                        <button type="button" class="finalbtn1 submitbtn">Submit details</button>
+                        <button type="submit" class="finalbtn2">Clear details</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+
+
+
+        </div>
+
+        <div class="card2">
+            <h1 class="title2">ENROLLED STUDENTS LIST</h1>
+
+            <div class="idcard">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- FOOT -->
+    <div class="footer">
+        <center>
+            <p><i>This Website Was designed for task 4 of Lets grow more,click on input bar to give instruction and
+                    press = to get answer.</i></p>
+        </center>
+        <center>
+            <p> @Designed by BASU JAIN</p>
+        </center>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
